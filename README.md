@@ -7,7 +7,7 @@ Professional document scanner with intelligent token detection and modern UI.
 
 ## Live Demo
 
-🌐 **[Try DocXScan v3.0 Live](https://localhost:8501.streamlit.app)**
+🌐 **[Try DocXScan v3.0 Live](https://docxscan-web.streamlit.app/)**
 
 ## Local Installation
 
