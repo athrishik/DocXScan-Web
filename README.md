@@ -3,39 +3,52 @@ Made more user friendly and accessable without any installations.
 
 python-docx==0.8.11 pandas==2.0.3 openpyxl==3.1.2 sv-ttk==2.6.0
 DocXSuite - Document Processing Toolkit Version 3.0 | Copyright © 2025 Hrishik Kunduru
+Professional document scanner with intelligent token detection and modern UI.
 
+## Live Demo
 
-DocxScan 3.0 - Scans Word documents for specific patterns/tokens DocxReplace 3.0 - Bulk find-and-replace operations across multiple documents Backup System - Automatic document backups for safety
-🔍 DocxScan 3.0 - Document Scanner
-Purpose: Scans folders of Word documents to find specific patterns, codes, or tokens. Perfect for legal documents, templates, or any bulk document analysis. How to Use
+🌐 **[Try DocXScan v3.0 Live](https://localhost:8501.streamlit.app)**
 
+## Local Installation
 
-Key Features
+```bash
+git clone https://github.com/yourusername/docxscan-v3.git
+cd docxscan-v3
+pip install -r requirements.txt
+streamlit run docxscan.py
+```
+## Features
 
-- Token-based scanning using customizable JSON patterns
-- Excel export with file paths and match details Progress tracking with real-time updates
-- Recursive folder scanning (searches subfolders)
-- Match highlighting shows exactly what was found
+- 🚀 **Smart Folder Selection** - Multiple intuitive ways to select document folders
+- 🎯 **Token Detection** - Scan documents for specific patterns and tokens
+- 📊 **Advanced Analytics** - Detailed scan results with metrics
+- 💾 **Export Options** - Download results as ZIP or Excel reports
+- 🌐 **Cross-Platform** - Works on Windows, macOS, and Linux
+- 🎨 **Modern UI** - Professional dark theme with smooth animations
 
+## Supported File Types
 
-Performance Tips
+- `.docx` files
+- `.dcp.docx` files
+- Recursive folder scanning
 
-Process in batches: Handle large document sets in smaller groups Use specific patterns: Avoid overly broad regex wildcards Test first: Always run Dry Run mode before bulk operations Clean up: Regularly remove old backup folders
+## How to Use
 
-📊 Understanding the Output Console Messages
+1. **Upload Token File** - Upload your JSON token mappings file
+2. **Select Folder** - Choose your document folder using the enhanced browser
+3. **Configure Scan** - Select file types and add custom tokens
+4. **Run Scan** - Click "Start Scan" to begin processing
+5. **Download Results** - Export findings as ZIP or Excel report
 
-✅ Successful modification 🔍 Dry run preview ⚠️ Warning (file issues, etc.) ❌ Error occurred ➖ No changes needed ↩️ Undo operation completed 📁 Files loaded successfully 📄 Template created
+## Copyright
 
-Progress Tracking
+© 2025 Hrishik Kunduru. All rights reserved.
 
-Real-time progress bar shows completion status File-by-file updates display current processing Summary statistics provide operation overview Detailed error reports help troubleshoot issues
-📞 Support For technical support or feature requests, contact the developer. Remember: Always backup your important documents before bulk processing!
+Remember: Always backup your important documents before bulk processing!
 
 ⚖️ License This software is intended for internal use only. Unauthorized copying, distribution, or modification is strictly prohibited. Copyright © 2025 Hrishik Kunduru. All rights reserved. https://www.github.com/athrishik
 
 DocxSuite License
-
-Copyright (c) 2025 Hrishik Kunduru. All rights reserved.
 
 This software is provided for personal and educational use only.
 
