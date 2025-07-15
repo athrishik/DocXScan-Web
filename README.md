@@ -12,10 +12,10 @@ Professional document scanner with intelligent token detection and modern UI.
 ## Local Installation
 
 ```bash
-git clone https://github.com/yourusername/docxscan-v3.git
-cd docxscan-v3
+git clone https://github.com/athrishik/docxscan-web.git
+cd docxscan-web
 pip install -r requirements.txt
-streamlit run docxscan.py
+streamlit run docxscan-web.py
 ```
 ## Features
 
